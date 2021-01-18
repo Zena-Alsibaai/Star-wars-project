@@ -4,3 +4,43 @@
     margin: 0;
 
 }
+
+.alta{
+
+       
+        font-size: 32px;
+        color: #ffffff;
+        opacity: 0;
+        animation-delay: 1s;
+        animation-duration: 1s;
+        animation-name: alta;
+        animation-timing-function: ease-out;
+
+}
+
+    @keyframes a-long-time-ago {
+        0%   { opacity: 0; }
+        20%  { opacity: 1; }
+        80%  { opacity: 1; }
+        100% { opacity: 0; }
+}
+
+body{
+
+    background: url(images/ciel.jpeg);
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p{
+
+    color: white;
+
+}
